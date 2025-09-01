@@ -1,0 +1,13 @@
+id,titre,description,service,date
+1,Panne serveur,Crash serveur applicatif,IT,2023-07-21
+2,Erreur facturation,Anomalie de calcul,Finance,2022-12-10
+3,Machine arrêt,Arrêt de la chaîne 1,Production,2023-01-05
+4,Incident réseau,Coupure WAN,IT,2024-03-12
+5,Erreur paie,Bug paie mars,HR,2024-03-30
+6,Capteur HS,Capteur T° HS,Maintenance,2024-05-02
+7,Produit non conforme,Lot 778 rejeté,Qualite,2023-11-19
+8,Incident sécurité,Détection badge invalide,Securite,2022-08-09
+9,Incident base,Index corrompu,IT,2024-06-15
+10,Chariot cassé,Maintenance urgente,Maintenance,2022-02-18
+11,Erreur achat,PO en double,Achat,2023-04-09
+12,Incident HVAC,CTA arrêtée,Maintenance,2024-07-01
