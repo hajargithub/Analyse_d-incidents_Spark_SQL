@@ -7,7 +7,7 @@ Ce projet **Maven + Java (Spark SQL)** lit un CSV d’incidents et produit :
 Format CSV attendu : `id,titre,description,service,date`
 
 Exemple dans [`data/incidents.csv`](data/incidents.csv).
-[..](..)
+
 ---
 
 ## 🧱 Architecture & modes d’exécution
@@ -69,6 +69,12 @@ data/incidents.csv output
 ```
 
 ---
+### 📷 Captures
+
+![Le nombre d’incidents par service](Captures/Nombre%20d'incidents%20par%20service.PNG)
+
+![Les deux années** où il y avait **le plus d’incidents](Captures/Top%202%20années%20avec%20le%20plus%20d'incidents.PNG)
+````````
 
 ## 🐳 Exécution sur un cluster Spark (Docker)
 
@@ -124,11 +130,9 @@ Les deux sont écrites en **CSV** avec l’option `header=true`.
 
 ---
 
-## 🧰 Dépannage
+### 📷 Captures
+![output_spark-cluster](Captures/Spark_cluster_output.PNG)
 
-- *Beaucoup de logs Spark ?* → voir `src/main/resources/log4j2.properties`.
-- *Chemins relatifs en cluster ?* → utilisez des chemins **absolus** sous `/shared`.
-- *Erreur de droits d’écriture* → vérifiez les permissions du dossier `shared/`.
 
 ---
 
