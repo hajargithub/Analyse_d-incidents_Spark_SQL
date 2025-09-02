@@ -69,12 +69,14 @@ data/incidents.csv output
 ```
 
 ---
+
+---
 ### 📷 Captures
 
 ![Le nombre d’incidents par service](Captures/Nombre%20d'incidents%20par%20service.PNG)
 
 ![Les deux années** où il y avait **le plus d’incidents](Captures/Top%202%20années%20avec%20le%20plus%20d'incidents.PNG)
-````````
+---
 
 ## 🐳 Exécution sur un cluster Spark (Docker)
 
